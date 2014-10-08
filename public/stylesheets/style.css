@@ -2,45 +2,16 @@ body {
 }
 
 .tap-me {
-  color: #16a085;
-  text-decoration: none;
-  -webkit-transition: .25s;
-          transition: .25s;
-  }
-}
-
-.tap-me:hover {
-  color:pink;
-}
-
-.tap-me {
-  padding:2px;
-  color: #16a085;
-  border: 1px solid;
-  border-radius:25px;
-  border-color: #fff;
-  -webkit-transition: .25s;
-          transition: .25s;
-  }
-.tap-me:hover,
-.tap-me:focus {
-  color: #fff;
-  background-color:#1abc9c;
-  border: 1px solid;
-  border-radius:25px;
-  border-color: #1abc9c;
-}
-
-.tap-me-two {
   padding:2px;
   color: #BFBFBF;
   -webkit-transition: .25s;
           transition: .25s;
   }
-.tap-me-two:hover,
-.tap-me-two:focus {
+.tap-me:hover,
+.tap-me:focus {
+  cursor: pointer;
   color: #404040;
 }
-.tap-me-two:active{
+.tap-me:active{
   color:#1abc9c;
 }

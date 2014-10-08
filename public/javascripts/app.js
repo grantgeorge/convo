@@ -5,6 +5,11 @@ angular.module('convoApp', ['ui.router'])
 function($stateProvider, $urlRouterProvider) {
 
   $stateProvider
+    .state('login', {
+      url: '/login',
+      templateUrl: '/login.html',
+      controller: 'LoginCtrl',
+    })
     .state('home', {
       url: '/home',
       templateUrl: '/home.html',

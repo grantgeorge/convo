@@ -30,7 +30,7 @@
     </div>
 
     <div ng-repeat="post in posts | orderBy:'-upvotes'">
-      <span class="fui-triangle-up tap-me-two"
+      <span class="fui-triangle-up tap-me"
         ng-click="incrementUpvotes(post)"></span>
       {{post.upvotes}}
       <span style="font-size:20px; margin-left:10px;">
@@ -98,6 +98,12 @@
       </div>
       <button type="submit" class="btn btn-primary">Post</button>
     </form>
+
+  </script>
+
+  <script type="text/ng-template" id="/login.html">
+
+    <h1>Login</h1>
 
   </script>
 
