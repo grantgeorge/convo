@@ -1,4 +1,4 @@
-angular.module('flapperNews')
+angular.module('convoApp')
   .controller('MainCtrl', [
     '$scope',
     'posts',

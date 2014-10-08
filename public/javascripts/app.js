@@ -1,4 +1,4 @@
-angular.module('flapperNews', ['ui.router'])
+angular.module('convoApp', ['ui.router'])
 .config([
 '$stateProvider',
 '$urlRouterProvider',

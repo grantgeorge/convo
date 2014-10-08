@@ -1,4 +1,4 @@
-angular.module('flapperNews')
+angular.module('convoApp')
   .factory('posts', ['$http', function($http){
     var o = {
       posts: []
